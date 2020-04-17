@@ -29,4 +29,38 @@ public class SortUtil {
             nums[i] = integers[i];
         }
     }
+
+    public static int binarySearch(int[] nums, int fromIndex, int toIndex, int target) {
+        if (toIndex - fromIndex < 3) {
+            for (int i = fromIndex; i < toIndex + 1; i++) {
+                if (nums[i] == target) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+        int midIndex = (fromIndex + toIndex) / 2;
+        int mid = nums[midIndex];
+        int start = nums[fromIndex];
+        int end = nums[toIndex];
+
+        if (target == mid) {
+            return midIndex;
+        }
+        if (target == start) {
+            return fromIndex;
+        }
+        if (target == end) {
+            return toIndex;
+        }
+
+        if (target > mid) {
+            return binarySearch(nums, midIndex, toIndex, target);
+        } else if (target < mid) {
+            return binarySearch(nums, fromIndex, midIndex, target);
+        } else {
+            return midIndex;
+        }
+
+    }
 }

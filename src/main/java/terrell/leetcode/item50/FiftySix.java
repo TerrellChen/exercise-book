@@ -10,7 +10,8 @@ import com.alibaba.fastjson.JSONArray;
 import java.util.*;
 
 /**
- * Description:
+ * Description: [1,10],[2,5][0,3],[4,7]
+ * [0,3][1,10],[2,5],[4,7]
  */
 public class FiftySix {
     public int[][] merge(int[][] intervals) {

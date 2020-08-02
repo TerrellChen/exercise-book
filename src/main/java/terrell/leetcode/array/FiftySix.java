@@ -1,4 +1,4 @@
-package terrell.leetcode.item50;
+package terrell.leetcode.array;
 /**
  * @author: TerrellChen
  * @version: Created in 19:34 2020-05-23

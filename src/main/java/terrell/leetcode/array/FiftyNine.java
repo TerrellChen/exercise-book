@@ -1,11 +1,14 @@
-package terrell.leetcode.item50;
+package terrell.leetcode.array;
 /**
  * @author: TerrellChen
  * @version: Created in 18:18 2020-08-02
  */
 
 /**
- * Description:
+ * Description: 59 Spiral Matrix II
+ * Difficulty: Medium
+ * 题目：给一个正整数n，返回一个n * n的矩阵，并且将[1,n*n]的数字在其中按螺旋排列
+ * 解法：生成矩阵，按照螺旋状遍历即可
  */
 public class FiftyNine {
     public int[][] generateMatrix(int n) {

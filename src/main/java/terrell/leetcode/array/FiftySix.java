@@ -10,8 +10,10 @@ import com.alibaba.fastjson.JSONArray;
 import java.util.*;
 
 /**
- * Description: [1,10],[2,5][0,3],[4,7]
- * [0,3][1,10],[2,5],[4,7]
+ * Description: 56 Merge Intervals
+ * Difficulty: Medium
+ * 题目：给出一个数组范围，合并全部范围
+ * 解法：按低位排序，再遍历即可，注意明确所有可能出现的范围关系及处理方式
  */
 public class FiftySix {
     public int[][] merge(int[][] intervals) {

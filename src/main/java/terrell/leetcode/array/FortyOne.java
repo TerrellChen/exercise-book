@@ -7,7 +7,12 @@ package terrell.leetcode.array;
 import java.util.Arrays;
 
 /**
- * Description:
+ * Description: 41 First Missing Positive
+ * Difficulty: Hard
+ * 题目：给出一个未排序的数组，找到缺少的第一个正整数
+ * 备注：期望时间复杂度o(n)，并且使用常数级别的额外空间
+ * 解法1：快排，找1，然后开始往后遍历（不符合备注）
+ * 解法2：TODO
  */
 
 /**

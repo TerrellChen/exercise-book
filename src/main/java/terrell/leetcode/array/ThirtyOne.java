@@ -8,7 +8,10 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * Description:
+ * Description: 31 Next Permutation
+ * Difficulty: Medium
+ * 题目：获取字典序的下一个排列（不存在则最小）
+ * 解法：TODO
  */
 public class ThirtyOne {
     public void nextPermutation(int[] nums) {

@@ -8,7 +8,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Description:
+ * Description: 54 Spiral Matrix
+ * Difficulty: Medium
+ * 题目：给出一个螺旋排列的矩阵，将内容按螺旋排列取出并输出
+ * 解法：按螺旋遍历即可，每次"撞墙"即边界缩短一阶
  */
 public class FiftyFour {
     public List<Integer> spiralOrder(int[][] martrix) {

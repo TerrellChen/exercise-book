@@ -8,9 +8,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Description:
- * start: 2/8/2020 14:36
- * end: 2/8/2020 15:39
+ * Description: 57 Insert Interval
+ * Difficulty: Hard
+ * 题目：给出一个有序的，不重复的数组范围[[1,3],[6,9]]这样，再给出一个新范围[2,5]，输出整合后的范围[[1,5],[6,9]]
+ * 解法：遍历、合并即可，注意分清楚范围重合的几种情形及处理方式
  */
 public class FiftySeven {
     public int[][] insert(int[][] intervals, int[] newInterval) {

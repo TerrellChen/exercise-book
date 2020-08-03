@@ -8,7 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description:
+ * Description: 118 Pascal's Triangle
+ * Difficulty: Easy
+ * 题目：给出一个非负数，返回这么大的一个杨辉三角
+ * 解法：按行生成，没啥说的
  */
 public class OneHundredAndEighteen {
     public List<List<Integer>> generate(int numRows) {

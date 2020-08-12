@@ -4,7 +4,6 @@ package terrell.leetcode.array;
  * @version: Created in 22:36 2020-08-05
  */
 
-import java.util.List;
 
 /**
  * Description: 289 Game of Life

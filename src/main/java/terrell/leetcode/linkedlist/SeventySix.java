@@ -17,6 +17,8 @@ package terrell.leetcode.linkedlist;
  *          当匹配到left后，开始匹配right。如果required这时候已经是0，那么直接按照当前长度，产生一个子串，
  *          比较已经记录的子串，仅保留最短的
  *          将left++，继续下一轮循环
+ *
+ *  一些小的优化点：可以缓存right遍历时匹配到的点，以便left右移追right的时候，减少扫描量
  */
 public class SeventySix {
     public String minWindow(String s, String t) {
